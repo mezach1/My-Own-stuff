@@ -1,0 +1,12 @@
+
+Notice;
+If you want to switch keyboard rjb in gnome make sur to sure lightdm instead of gdm 
+
+echo "1" > /sys/class/leds/input45\:\:scrolllock/brightness
+use this command to enable rjb in your linux but 
+change the input command  appropely for your avilability 
+or just use this command as well 
+sudo kbd_mode -u -s "The -s  switch is used to get off the problem of switching to tyy console it discussting "
+ don't forget to add xset led to make  capslock delay unlimited 
+ don't forget to use this command xset led 3  "just use led 3 don't use led  alone becaouse it will break the numbers side and you cant typ number and  cama ect ..."
+
